@@ -32,9 +32,9 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built with **LangChain
 [ LCEL Parallel Chain Context ] 
        │
        ▼ (google/flan-t5-large LLM)
-[ Grounded Answer Synthesis ]
+[ Grounded Answer Synthesis ]```
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 
 * **Language:** Python 3.10+
 * **Framework:** LangChain (LCEL core & community modules)
