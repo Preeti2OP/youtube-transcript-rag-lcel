@@ -32,7 +32,8 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built with **LangChain
 [ LCEL Parallel Chain Context ] 
        │
        ▼ (google/flan-t5-large LLM)
-[ Grounded Answer Synthesis ]```
+[ Grounded Answer Synthesis ]
+```
 
 ## 🚀 Tech Stack
 
@@ -44,3 +45,11 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built with **LangChain
 * **Data Source:** YouTube Transcript API
 
 ---
+
+## Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+## Install dependencies:
+pip install youtube-transcript-api langchain-community langchain-huggingface faiss-cpu tiktoken python-dotenv
+
